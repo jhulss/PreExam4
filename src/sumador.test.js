@@ -21,6 +21,13 @@ describe("FizzBuzz", () => {
     const fizz = new FizzBuzz();
     expect(fizz.cicloFizz(4)).toEqual(4);
   });
+  
+  it("debería devolver un array con los resultados esperados", () => {
+    const objeto = new FizzBuzz();
+    const resultado2 = objeto.verificar(7);
+    expect(resultado2).toEqual([1, 2, "Fizz", 4, "Buzz", "Fizz", 7]);
+  });
+
 
  
 
