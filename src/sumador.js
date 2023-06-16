@@ -1,5 +1,14 @@
-function sumar(a, b) {
-  return a + b;
+class FizzBuzz{
+    
+  cicloFizz(numero)
+    {
+        if (numero %3 == 0)
+        {
+          return "Fizz";
+        }
+        else return numero;
+    }
+
 }
 
-export default sumar;
+export default FizzBuzz;
